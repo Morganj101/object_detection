@@ -1,0 +1,4 @@
+# Ignore all the raw images files in this directory.
+# Adding Commit
+*.jpg
+*.png
