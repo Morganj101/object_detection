@@ -14,37 +14,13 @@
 	<object>
 		<name>void</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>32</xmin>
-			<ymin>1</ymin>
-			<xmax>156</xmax>
-			<ymax>167</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>308</xmin>
-			<ymin>401</ymin>
-			<xmax>487</xmax>
-			<ymax>563</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>33</xmin>
-			<ymin>180</ymin>
-			<xmax>320</xmax>
-			<ymax>382</ymax>
+			<xmin>158</xmin>
+			<ymin>169</ymin>
+			<xmax>314</xmax>
+			<ymax>237</ymax>
 		</bndbox>
 	</object>
 </annotation>
