@@ -198,8 +198,8 @@ public class MultiBoxTracker {
       trackedObjects.add(trackedRecognition);
 
       // Something New! (Keep! Object with Location and Confidence.)
-      logger.w("Object Found: " +  trackedRecognition.title + " with confidence: " + trackedRecognition.detectionConfidence); // Name of Object
-      logger.w("Location Details:" + "\nLeft: " + trackedRecognition.location.left + "\nTop: " +
+      logger.i("Object Found: " +  trackedRecognition.title + " with confidence: " + trackedRecognition.detectionConfidence); // Name of Object
+      logger.i("Location Details:" + "\nLeft: " + trackedRecognition.location.left + "\nTop: " +
               trackedRecognition.location.top + "\nRight: " + trackedRecognition.location.right + "\nBottom: " + trackedRecognition.location.bottom); // Location of Object
 
       if (trackedObjects.size() >= COLORS.length) {
