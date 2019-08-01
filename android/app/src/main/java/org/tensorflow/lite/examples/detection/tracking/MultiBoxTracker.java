@@ -108,6 +108,7 @@ public class MultiBoxTracker {
       canvas.drawRect(rect, boxPaint);
       canvas.drawText("" + detection.first, rect.left, rect.top, textPaint);
       borderedText.drawText(canvas, rect.centerX(), rect.centerY(), "" + detection.first);
+
     }
   }
 
@@ -169,8 +170,8 @@ public class MultiBoxTracker {
       final RectF detectionScreenRect = new RectF();
       rgbFrameToScreen.mapRect(detectionScreenRect, detectionFrameRect);
 
-      logger.v(
-          "Result! Frame: " + result.getLocation() + " mapped to screen:" + detectionScreenRect);
+      logger.v("Result! Frame: " + result.getLocation() + " mapped to screen:" + detectionScreenRect);
+      logger.i("Result! Frame: " + result.getLocation() + " mapped to screen:" + detectionScreenRect);
 
       screenRects.add(new Pair<Float, RectF>(result.getConfidence(), detectionScreenRect));
 
@@ -195,6 +196,11 @@ public class MultiBoxTracker {
       trackedRecognition.title = potential.second.getTitle();
       trackedRecognition.color = COLORS[trackedObjects.size()];
       trackedObjects.add(trackedRecognition);
+
+      // Something New! (Keep! Object with Location and Confidence.)
+      logger.w("Object Found: " +  trackedRecognition.title + " with confidence: " + trackedRecognition.detectionConfidence); // Name of Object
+      logger.w("Location Details:" + "\nLeft: " + trackedRecognition.location.left + "\nTop: " +
+              trackedRecognition.location.top + "\nRight: " + trackedRecognition.location.right + "\nBottom: " + trackedRecognition.location.bottom); // Location of Object
 
       if (trackedObjects.size() >= COLORS.length) {
         break;

@@ -1,0 +1,25 @@
+I/tensorflow: DetectorActivity: Preparing image 5244 for detection in bg thread.
+I/tensorflow: DetectorActivity: Running detection on image 5244
+I/tensorflow: MultiBoxTracker: Processing 3 results from 5244
+    MultiBoxTracker: Result! Frame: RectF(404.6521, 6.6171875, 651.8425, 342.77747) mapped to screen:RectF(204.40439, 603.1846, 705.1431, 971.6528)
+    MultiBoxTracker: Result! Frame: RectF(25.114365, 2.6229553, 227.6394, 149.00156) mapped to screen:RectF(493.04974, 37.4361, 711.0929, 339.32498)
+    MultiBoxTracker: Result! Frame: RectF(7.3459435, 280.50385, 176.5675, 473.3582) mapped to screen:RectF(9.893494, 10.9500475, 297.16614, 263.19595)
+
+W/tensorflow: MultiBoxTracker: Object Found: void with confidence: 0.96161664
+    MultiBoxTracker: Location Details:
+    Left: 404.6521
+    Top: 6.6171875
+    Right: 651.8425
+    Bottom: 342.77747
+    MultiBoxTracker: Object Found: void with confidence: 0.9472126
+    MultiBoxTracker: Location Details:
+    Left: 25.114365
+    Top: 2.6229553
+    Right: 227.6394
+    Bottom: 149.00156
+W/tensorflow: MultiBoxTracker: Object Found: void with confidence: 0.6599099
+    MultiBoxTracker: Location Details:
+    Left: 7.3459435
+    Top: 280.50385
+    Right: 176.5675
+    Bottom: 473.3582
