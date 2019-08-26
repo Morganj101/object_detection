@@ -18,7 +18,7 @@ https://github.com/Tony607/object_detection_demo
 
 
 ### Step 1: Annotate some images
-- Save some photos with your custom object(s), ideally with `jpg` extension to `./data/raw` directory. (If your objects are simple like ones come with this repo, 20 images can be enough.)
+- Save some photos with your custom object(s), ideally with `jpg` extension to `./data/raw` directory.
 - Resize those photo to uniformed size. e.g. `(800, 600)` with
 ```
 python resize_images.py --raw-dir ./data/raw --save-dir ./data/images --ext jpg --target-size "(800, 600)"
