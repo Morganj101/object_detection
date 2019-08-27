@@ -1,6 +1,4 @@
-# [How to train an object detection model easy for free](https://www.dlology.com/blog/how-to-train-an-object-detection-model-easy-for-free/) | DLology Blog
-
-
+# Void Detection Tensorflow App
 
 ## How to Run
 
@@ -36,6 +34,7 @@ Resized images locate in `./data/images/`
 ### Step 2: Open [Colab notebook](https://colab.research.google.com/github/MorganJ101/void_detection/blob/master/void_detection_training_colab.ipynb)
 - Replace the repository's url to yours and run it.
 
+### Step 3: Update Model and Labels in Android App
 
 ## Commendations
 This repo was helped by following the User Tony607 on Github.
