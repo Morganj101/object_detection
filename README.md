@@ -4,14 +4,14 @@
 
 ## How to Run
 
-Easy way: run [this Colab Notebook](https://colab.research.google.com/github/Tony607/object_detection_demo/blob/master/tensorflow_object_detection_training_colab.ipynb).
+Easy way: run [this Colab Notebook](https://colab.research.google.com/github/MorganJ101/void_detection/blob/master/void_detection_training_colab.ipynb).
 
 Alternatively, if you want to use your images instead of ones comes with this repo.
 
 Require [Python 3.5+](https://www.python.org/ftp/python/3.6.4/python-3.6.4.exe) installed.
 ### Fork and clone this repository to your local machine.
 ```
-https://github.com/Tony607/object_detection_demo
+https://github.com/MorganJ101/void_detection
 ```
 ### Install required libraries
 `pip3 install -r requirements.txt`
@@ -33,20 +33,10 @@ Resized images locate in `./data/images/`
 - Commit and push your annotated images and xml files (`./data/images/train` and `./data/images/test`) to your forked repository.
 
 
-### Step 2: Open [Colab notebook](https://colab.research.google.com/github/Tony607/object_detection_demo/blob/master/tensorflow_object_detection_training_colab.ipynb)
+### Step 2: Open [Colab notebook](https://colab.research.google.com/github/MorganJ101/void_detection/blob/master/void_detection_training_colab.ipynb)
 - Replace the repository's url to yours and run it.
 
 
-## How to run inference on frozen TensorFlow graph
-
-Requirements:
-- `frozen_inference_graph.pb` Frozen TensorFlow object detection model downloaded from Colab after training. 
-- `label_map.pbtxt` File used to map correct name for predicted class index downloaded from Colab after training.
-
-You can also opt to download my [copy](https://github.com/Tony607/object_detection_demo/releases/download/V0.1/checkpoint.zip) of those files from the GitHub Release page.
-
-
-Run the following Jupyter notebook locally.
-```
-local_inference_test.ipynb
-```
+## Commendations
+This repo was helped by following the User Tony607 on Github.
+See: https://github.com/Tony607/object_detection_demo
