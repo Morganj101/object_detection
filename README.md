@@ -35,7 +35,10 @@ Resized images locate in `./data/images/`
 - Replace the repository's url to yours and run it.
 
 ### Step 3: Update Model and Labels in Android App
+- In the directory: void_detection/android/app/src/main/assets/ update the detect.tflite and labelmap.txt files to suit your own custom version.
 
 ## Commendations
-This repo was helped by following the User Tony607 on Github.
-See: https://github.com/Tony607/object_detection_demo
+This repo was created with the help of the following Github Repos:
+- https://github.com/Tony607/object_detection_demo
+- https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+- https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android
