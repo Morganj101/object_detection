@@ -14,11 +14,11 @@
 	<object>
 		<name>void</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
-			<ymin>65</ymin>
+			<xmin>42</xmin>
+			<ymin>61</ymin>
 			<xmax>194</xmax>
 			<ymax>125</ymax>
 		</bndbox>

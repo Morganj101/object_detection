@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>55</xmin>
-			<ymin>198</ymin>
+			<xmin>82</xmin>
+			<ymin>194</ymin>
 			<xmax>149</xmax>
-			<ymax>237</ymax>
+			<ymax>241</ymax>
 		</bndbox>
 	</object>
 	<object>

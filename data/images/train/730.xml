@@ -53,18 +53,6 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>191</xmin>
-			<ymin>199</ymin>
-			<xmax>257</xmax>
-			<ymax>241</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
 			<xmin>127</xmin>
 			<ymin>129</ymin>
 			<xmax>147</xmax>

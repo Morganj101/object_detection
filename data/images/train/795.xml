@@ -26,30 +26,6 @@
 	<object>
 		<name>void</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>135</xmin>
-			<ymin>126</ymin>
-			<xmax>163</xmax>
-			<ymax>177</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>58</xmin>
-			<ymin>175</ymin>
-			<xmax>122</xmax>
-			<ymax>221</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>

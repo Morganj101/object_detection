@@ -30,21 +30,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>56</xmin>
-			<ymin>156</ymin>
-			<xmax>107</xmax>
-			<ymax>182</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>73</xmin>
-			<ymin>67</ymin>
-			<xmax>246</xmax>
-			<ymax>115</ymax>
+			<ymin>153</ymin>
+			<xmax>104</xmax>
+			<ymax>186</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -19,8 +19,8 @@
 		<bndbox>
 			<xmin>1</xmin>
 			<ymin>194</ymin>
-			<xmax>132</xmax>
-			<ymax>234</ymax>
+			<xmax>134</xmax>
+			<ymax>235</ymax>
 		</bndbox>
 	</object>
 </annotation>
