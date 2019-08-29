@@ -26,12 +26,12 @@
 	<object>
 		<name>void</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
+			<xmin>10</xmin>
 			<ymin>221</ymin>
-			<xmax>80</xmax>
+			<xmax>89</xmax>
 			<ymax>273</ymax>
 		</bndbox>
 	</object>

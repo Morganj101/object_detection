@@ -1,7 +1,7 @@
 <annotation>
-	<folder>train</folder>
+	<folder>test</folder>
 	<filename>217.jpg</filename>
-	<path>C:\object_detection\data\images\train\217.jpg</path>
+	<path>C:\object_detection\data\images\test\217.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -11,30 +11,6 @@
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>161</xmin>
-			<ymin>219</ymin>
-			<xmax>208</xmax>
-			<ymax>270</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>void</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>52</xmin>
-			<ymin>176</ymin>
-			<xmax>210</xmax>
-			<ymax>218</ymax>
-		</bndbox>
-	</object>
 	<object>
 		<name>void</name>
 		<pose>Unspecified</pose>
@@ -89,10 +65,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>173</xmin>
-			<ymin>46</ymin>
-			<xmax>220</xmax>
-			<ymax>84</ymax>
+			<xmin>136</xmin>
+			<ymin>177</ymin>
+			<xmax>173</xmax>
+			<ymax>217</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>void</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>173</ymin>
+			<xmax>85</xmax>
+			<ymax>210</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>train</folder>
+	<folder>test</folder>
 	<filename>403.jpg</filename>
-	<path>C:\object_detection\data\images\train\403.jpg</path>
+	<path>C:\object_detection\data\images\test\403.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>52</xmin>
-			<ymin>218</ymin>
-			<xmax>160</xmax>
-			<ymax>242</ymax>
+			<xmin>48</xmin>
+			<ymin>214</ymin>
+			<xmax>157</xmax>
+			<ymax>245</ymax>
 		</bndbox>
 	</object>
 	<object>
