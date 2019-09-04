@@ -114,6 +114,13 @@ public class MultiBoxTracker {
 
   public synchronized void trackResults(final List<Recognition> results, final long timestamp) {
     logger.i("Processing %d results from %d", results.size(), timestamp);
+
+    if (results.isEmpty()) {
+      trackedObjects.clear(); //added this code to remove the bounding box when nothing is detected
+      logger.i("mmk Nothing to track, aborting.");
+      return;
+    }
+
     processResults(results);
   }
 
