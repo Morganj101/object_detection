@@ -6,21 +6,21 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>300</height>
+		<width>800</width>
+		<height>600</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>void</name>
+		<name>empty_shelf_space</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>136</xmin>
-			<ymin>138</ymin>
-			<xmax>179</xmax>
-			<ymax>180</ymax>
+			<xmin>361</xmin>
+			<ymin>271</ymin>
+			<xmax>475</xmax>
+			<ymax>356</ymax>
 		</bndbox>
 	</object>
 </annotation>
