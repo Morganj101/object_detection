@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>empty_shelf_space</name>
+		<name>void</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -24,7 +24,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>empty_shelf_space</name>
+		<name>void</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
@@ -33,6 +33,18 @@
 			<ymin>395</ymin>
 			<xmax>166</xmax>
 			<ymax>469</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>void</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>472</ymin>
+			<xmax>291</xmax>
+			<ymax>571</ymax>
 		</bndbox>
 	</object>
 </annotation>
