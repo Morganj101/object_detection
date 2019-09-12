@@ -1,4 +1,4 @@
 item {
     id: 1
-    name: 'void'
+    name: 'empty_shelf_space'
 }
