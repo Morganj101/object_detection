@@ -1,5 +1,6 @@
 # Void Detection Tensorflow App
 
+# Training
 ## How to Run
 
 Easy way: run [this Colab Notebook](https://colab.research.google.com/github/MorganJ101/void_detection/blob/master/void_detection_training_colab.ipynb).
@@ -42,3 +43,9 @@ This repo was created with the help of the following Github Repos:
 - https://github.com/Tony607/object_detection_demo
 - https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 - https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android
+
+# To Do
+
+## Current Progress
+- This application has only the ability to detection empty spots on shelves.
+- Need to develop methods to push content to a database for records collection.
