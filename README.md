@@ -45,7 +45,5 @@ This repo was created with the help of the following Github Repos:
 - https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android
 
 # To Do
-
-## Current Progress
 - This application has only the ability to detection empty spots on shelves.
 - Need to develop methods to push content to a database for records collection.
