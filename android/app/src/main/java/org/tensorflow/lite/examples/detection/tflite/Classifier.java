@@ -17,6 +17,9 @@ package org.tensorflow.lite.examples.detection.tflite;
 
 import android.graphics.Bitmap;
 import android.graphics.RectF;
+
+import org.tensorflow.lite.examples.detection.env.Logger;
+
 import java.util.List;
 
 /** Generic interface for interacting with different recognition engines. */
@@ -52,8 +55,7 @@ public interface Classifier {
     /** Optional location within the source image for the location of the recognized object. */
     private RectF location;
 
-    public Recognition(
-        final String id, final String title, final Float confidence, final RectF location) {
+    public Recognition(final String id, final String title, final Float confidence, final RectF location) {
       this.id = id;
       this.title = title;
       this.confidence = confidence;
