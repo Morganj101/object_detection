@@ -177,7 +177,8 @@ public class MultiBoxTracker {
       final RectF detectionScreenRect = new RectF();
       rgbFrameToScreen.mapRect(detectionScreenRect, detectionFrameRect);
 
-      logger.v("Result! Frame: " + result.getLocation() + " mapped to screen:" + detectionScreenRect);
+      // logger.v("Result! Frame: " + result.getLocation() + " mapped to screen:" + detectionScreenRect);
+      logger.i("Result ID: " + result.getId() + " Result Title: " + result.getTitle()+ " Result Confidence: " + result.getConfidence());
       logger.i("Result! Frame: " + result.getLocation() + " mapped to screen:" + detectionScreenRect);
 
       screenRects.add(new Pair<Float, RectF>(result.getConfidence(), detectionScreenRect));
